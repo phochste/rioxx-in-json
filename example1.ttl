@@ -1,0 +1,77 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix rioxxterms: <http://docs.rioxx.net/schema/v3.0/rioxxterms/> .
+
+<> 
+    dc:description "The kinematic lower bound for the single scattering of neutrons produced in deuterium-tritium (DT) fusion reactions produces a backscatter edge in the measured neutron spectrum. The energy spectrum of backscattered neutrons is dependent on the scattering ion velocity distribution. As the neutrons preferentially scatter in the densest regions of the capsule, the neutron backscatter edge presents a unique measurement of the hydrodynamic conditions in the dense DT fuel. It is shown that the spectral shape of the edge is determined by the scattering rate weighted fluid velocity and temperature of the dense DT fuel layer during neutron production. In order to fit the neutron spectrum, a model for the various backgrounds around the backscatter edge is developed and tested on synthetic data produced from hydrodynamic simulations of OMEGA implosions. It is determined that the analysis could be utilized on current inertial confinement fusion experiments in order to measure the dense fuel properties." ;
+    dc:language "en" ;
+    dc:source "1070-664X" ;
+    dc:title ">Neutron backscatter edge: A measure of the hydrodynamic properties of the dense DT fuel at stagnation in ICF experiments" ;
+    dcterms:dateAccepted "2019-12-01" ;
+    rioxxterms:creator 
+        <https://orcid.org/0000-0002-0429-9332> , 
+        _:c2 ,
+        <https://orcid.org/0000-0001-8029-5109> ,
+        <https://orcid.org/0000-0002-8013-9314> ,
+        <https://orcid.org/0000-0002-6639-3543> ,
+        _:c6 ;
+    rioxxterms:publication_date "2020-01-03" ;
+    rioxxterms:publisher <https://isni.org/isni/0000000405564665> ;
+    rioxxterms:record_public_release_date "2020-01-20" ;
+    dc:type <http://purl.org/coar/resource_type/c_2df8fbb1> ;
+    rioxxterms:grant _:g1 ;
+    dc:identifier <https://spiral.imperial.ac.uk/handle/10044/1/76123> ;
+    dc:relation _:r1 , _:r2 ;
+    rioxxterms:ext_relation _:e1 .
+    
+<https://orcid.org/0000-0002-0429-9332>
+    rioxxterms:first-named-author true ;
+    rioxxterms:name "Crilly, A. J." .
+
+_:c2 
+    rioxxterms:name "Appelbe, B. D." .
+
+<https://orcid.org/0000-0001-8029-5109>
+    rioxxterms:name "Mannion, O. M."
+
+_:c2
+    rioxxterms:name "Forrest, C. J." .
+
+<https://orcid.org/0000-0002-8013-9314>
+    rioxxterms:name "Gopalaswamy, V." .
+
+<https://orcid.org/0000-0002-6639-3543>
+    rioxxterms:name "Walsh, C. A." .
+
+_:c6 
+    rioxxterms:name "Chittenden, J. P." .
+
+<https://isni.org/isni/0000000405564665>
+    rioxxterms:name "AIP" .
+
+_:g1 
+    rdf:value "B618573" ;
+    rioxxterms:funder_id <https://ror.org/041nk4h53> ;
+    rioxxterms:funder_name "Lawrence Livermore National Laboratory" .
+
+_:r1
+    rdf:value <https://spiral.imperial.ac.uk/bitstream/10044/1/76123/2/POP19-AR-58732_accepted.pdf> ;
+    rioxxterms:rel "item" ;
+    rioxxterms:type "application/pdf" ;
+    rioxxterms:coar_version <https://purl.org/coar/version/c_ab4af688f83e57aa> ;
+    rioxxterms:coar_type <https://purl.org/coar/resource_type/c_6501> ;
+    rioxxterms:deposit_date "2010-01-20" ;
+    rioxxterms:resource_exposed_date "2020-01-20" ;
+    rioxxterms:access_rights <https://purl.org/coar/access_right/c_abf2>
+    rioxxterms:license_ref <https://creativecommons.org/licenses/by-nc-nd/4.0> .
+
+_:r2
+    rdf:value <http://hdl.handle.net/10044/1/76123> ;
+    rioxxterms:rel "cite-as" .
+
+_:e1 
+    rdf:value <https://doi.org/10.1063/1.5128830> ;
+    rioxxterms:rel "cite-as" ;
+    rioxxterms:coar_type <http://purl.org/coar/resource_type/c_6501> ;
+    rioxxterms:coar_version <http://purl.org/coar/version/c_970fb48d4fbd8a8> .

@@ -1,0 +1,19 @@
+{
+  "name": "rioxx-in-json",
+  "version": "1.0.0",
+  "description": "A Rioxx XML to JSON(LD) parser",
+  "main": "rioxx2json.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/phochste/rioxx-in-json.git"
+  },
+  "author": "Patrick Hochstenbach <Patrick.Hochstenbach@UGent.be>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/phochste/rioxx-in-json/issues"
+  },
+  "homepage": "https://github.com/phochste/rioxx-in-json#readme"
+}
